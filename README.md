@@ -2,6 +2,8 @@
 
 A Bash script that leverages FFmpeg to remove silence from audio files. This script performs functions similar to other Python applications like Audio Slicer, etc. It can be used to clean audio for creating AI training datasets. In testing, this pure FFmpeg bash script was found to be easier to use and performed just as well as other Python solutions, without the setup requirements and dependency hell sometimes associated with Python.
 
+![screenshot](screenshot.png)
+
 ## Compatibility
 
 This script is for Linux systems and requires a bash shell. It may however may work if you have Windows Subsystem for Linux (WSL) installed on Windows (untested). Should work on macOS, you may need to update your bash version (easiest way is to use homebrew).
@@ -37,7 +39,7 @@ chmod +x desilence.sh
 bash desilence.sh input-file
 ```
 
-Replace `input-file`` with the path to the audio file you want to process.
+Replace `input-file` with the path to the audio file you want to process.
 
 ## Configuration
 
